@@ -66,11 +66,11 @@ h1
 }
 #table tr:nth-child(odd)
 {
-    background-color: #e6e6e6;
+    background-color: #FFDAB9;
 }
 .blok > form
 {
-    background-color: #f6f6f6;
+    background-color: #EE82EE;
     width: 500px;
     margin: 5px auto;
     padding: 2px 0;
