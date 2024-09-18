@@ -35,7 +35,7 @@ h1
 {
     padding: 8px;
     margin: 10px 0;
-    background-color: #FFB6C1;
+    background-color: #FFC0CB;
     text-align: center;
 }
 .blok > div
@@ -49,7 +49,7 @@ h1
 }
 #table, #table td
 {
-    border: 2px #474747 solid
+    border: 2px #DB7093 solid
 }
 #table td
 {
@@ -58,7 +58,7 @@ h1
 }
 #table thead tr
 {
-    background-color: #d5d5d5! important;
+    background-color: #DDA0DD important;
 }
 #table tr:nth-child(even)
 {
