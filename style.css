@@ -62,11 +62,11 @@ h1
 }
 #table tr:nth-child(even)
 {
-    background-color: #fff;
+    background-color: #C998BF;
 }
 #table tr:nth-child(odd)
 {
-    background-color: #fff;
+    background-color: #FFDAB9;
 }
 .blok > form
 {
