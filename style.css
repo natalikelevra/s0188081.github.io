@@ -56,7 +56,7 @@ h1
     padding: 11px;
     text-align: center;
 }
-#table thead tr
+#table #thead tr
 {
     background-color: #98BBC9 important;
 }
