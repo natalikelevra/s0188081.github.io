@@ -62,7 +62,7 @@ h1
 }
 #table #thead tr
 {
-    background-color: #98BBC9 important;
+    background-color: #98BBC9;
 }
 #table tr:nth-child(even)
 {
