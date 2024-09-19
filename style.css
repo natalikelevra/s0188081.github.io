@@ -9,6 +9,10 @@ h1
     padding: 10px;
     height: 100px;
 }
+.body{
+    background-image: url(imagebackground.png);
+    background-repeat: repeat;
+}
 .content
 {
     max-width: 960px;
@@ -49,7 +53,7 @@ h1
 }
 #table, #table td
 {
-    border: 2px #DB7093 solid;
+    border: 5px #DB7093 solid;
 }
 #table td
 {
