@@ -31,6 +31,7 @@
         </div>
 
         <div id="table" class="blok">
+		<h1 class="middleheader"> Table</h1>
             <table>
                 <thead>
                     <tr>
@@ -43,7 +44,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="nch">
                         <td> Natali </td>
                         <td> Kobelkova </td>
                         <td> 19 </td>
@@ -59,7 +60,7 @@
                         <td> 10/10 </td>
                         <td> ❤️️ </td>
                     </tr>
-                    <tr>
+                    <tr class="nch">
                         <td> Vixa </td>
                         <td> Klubyanko </td>
                         <td> 19 </td>
@@ -74,7 +75,7 @@
                         <td colspan="2" rowspan="2"> 100/10 </td>
                         <td> ⚜ </td>
                     </tr>
-                    <tr>
+                    <tr class="nch">
                         <td> Egor </td>
                         <td> Bamblbee </td>
                         <td> 19 </td>
@@ -87,7 +88,7 @@
                         <td> 178 </td>
                         <td> 10/10 </td>
                     </tr>
-                    <tr>
+                    <tr class="nch">
                         <td> Lianelya </td>
                         <td> Karapetyashka </td>
                         <td> 19 </td>
@@ -107,66 +108,31 @@
 
         <div class="form">
            <form>
-               <label>
-        ФИО:<br />
-        <input name="field-email"
-          placeholder="Введите ваши ФИО" />
-      </label><br />
-	<label>
-      Телефон:<br />
-        <input name="field-name"
-            type="tel"
-          placeholder="Введите ваш номер телефона" />
-      </label><br />
-	<label>
-        Email:<br />
-        <input name="field-email"
-          type="email"
-          placeholder="Введите вашу почту" />
-      </label><br />
-      <label>
-        Дата рождения:<br />
-        <input name="field-date"
-          value="2019-08-13"
-          type="date" />
-      </label><br />
-      Пол<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        Женский</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        Мужской</label><br />
-
-      <label>
-        Ваш любимый язык программирования:
-        <br />
-        <select name="field-name-4[]"
-          multiple="multiple">
-          <option value="Значение1">Pascal</option>
-          <option value="Значение2" selected="selected">C</option>
-          <option value="Значение3" selected="selected">C++</option>
-          <option value="Значение4" selected="selected">JavaScript</option>
-          <option value="Значение5" selected="selected">PHP</option>
-          <option value="Значение6" selected="selected">Python</option>
-          <option value="Значение7" selected="selected">Java</option>
-          <option value="Значение8" selected="selected">Haskel</option>
-          <option value="Значение9" selected="selected">Clojure</option>
-          <option value="Значение10" selected="selected">Prolog</option>
-          <option value="Значение11" selected="selected">Scala</option>
-        </select>
-      </label><br />
-	<label>
-      Биография:<br />
-        <textarea name="field-name-2">Расскажите о себе</textarea>
-      </label><br />
-        <br />
-      <label><input type="checkbox" checked="checked"
-        name="check-1" />
-        С контрактом ознакомлен (а)</label><br />
-
-      <input type="submit" value="Сохранить" />
-           </form>
+		   <label>ФИО:<br> <input name="field-email" placeholder="Введите ваши ФИО" /></label><br />
+		   <label> Телефон:<br> <input name="field-name" type="tel" placeholder="Введите ваш номер телефона" /> </label><br />
+		   <label> Email:<br> <input name="field-email" type="email" placeholder="Введите вашу почту" /> </label><br />
+		   <label> Дата рождения:<br> <input name="field-date" value="2019-08-13" type="date" /> </label><br />
+		   <label> Пол<br> <input type="radio" checked="checked" name="radio-group-1" value="Значение1" /> Женский</label>
+		   <label><input type="radio" name="radio-group-1" value="Значение2" /> Мужской</label><br />
+		   <label> Ваш любимый язык программирования: <br />
+			   <select name="field-name-4[]" multiple="multiple">
+				   <option value="Значение1">Pascal</option>
+				   <option value="Значение2" selected="selected">C</option>
+				   <option value="Значение3" selected="selected">C++</option>
+				   <option value="Значение4" selected="selected">JavaScript</option>
+				   <option value="Значение5" selected="selected">PHP</option>
+				   <option value="Значение6" selected="selected">Python</option>
+				   <option value="Значение7" selected="selected">Java</option>
+				   <option value="Значение8" selected="selected">Haskel</option>
+				   <option value="Значение9" selected="selected">Clojure</option>
+				   <option value="Значение10" selected="selected">Prolog</option>
+				   <option value="Значение11" selected="selected">Scala</option>
+			   </select>
+		   </label><br />
+		   <label> Биография:<br> <textarea name="field-name-2">Расскажите о себе</textarea> </label><br />
+		   <label><input type="checkbox" checked="checked" name="check-1" /> С контрактом ознакомлен (а)</label><br />
+		   <input type="submit" value="Сохранить" />
+	   </form>
         </div>
     </div>
 
