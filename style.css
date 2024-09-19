@@ -71,20 +71,20 @@ h1
 }
 #table thead tr
 {
-    background-color: #4682B4! important;
+    background-color: #DEB887! important;
 }
 #table tr:nth-child(even)
 {
-    background-color: #6495ED
+    background-color: #FFEBCD
 }
 #table tr:nth-child(odd)
 {
-    background-color: #87CEFA;
+    background-color: #FFDEAD;
 }
 .blok > form
 {
     background-color: #f6f6f6;
-    background-image: url('backgroundbunny.jpg');
+    background-image: url('imagebbackground.jpg');
     width: 500px;
     margin: 5px auto;
     padding: 2px 0;
