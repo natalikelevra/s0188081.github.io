@@ -46,10 +46,13 @@ h1
     background-color: #FFC0CB;
     text-align: center;
     float: middle;
-}
-.blok > div
-{
-    margin: 10px 0;
+    width: 900px;
+	background-color: #ecffe6;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border: solid;
+    border-radius: 5%;
 }
 #table
 {
@@ -80,17 +83,6 @@ h1
 }
 .nch{
     background-color: #98BBC9;
-}
-.blok > form
-{
-    background-color: #EE82EE;
-    width: 400px;
-    margin: 5px auto;
-    padding: 2px 0;
-}
-.blok > form > div
-{
-    margin: 5px 0;
 }
 #footer > div > div
 {
