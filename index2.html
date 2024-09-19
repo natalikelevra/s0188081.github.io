@@ -107,11 +107,28 @@
         <div id="form"> </div>
         <div class="blok">
             <form>
-                <div> <input type="text" name="Fio" placeholder="ФИО"> </div>
-                <div> <input type="tel" name="Phone" placeholder="Телефон"> </div>
-                <div> <input type="email" name="Email" placeholder="Адрес электронной почты"> </div>
-                <div> <input type="date" name="Date"> </div>
-                <div> <button type="submit"> Сохранить </button> </div>
+                <label><p>Введите ФИО:<br> <input type="text" name="fio" placeholder="Иванов Иван Иванович"></p></label>
+			<label><p>Введите e-mail:<br> <input type="email" name="email" placeholder="form@fctpm.ru"></p>	</label>
+			<label><p>Введите номер телефона:<br> <input type="tel" name="tel" placeholder="+7(___)___-__-__"></p></label>
+			<label><p>Введите дату рождения:<br> <input type="date" name="dateofbirth" value="2024-09-11"></p></label>
+			<label><p>Пол:<br> <input type="radio" name="gender" value="val1">Женский <input type="radio" name="gender" value="val2">Мужской</p></label>
+			<label><p>Выберите любимый язык программирования:<br>
+			<select name="progrlang" multiple="multiple">
+				<option value="Значение1" selected = "selected">Pascal</option>
+				<option value="Значение2" selected = "selected">C</option>
+				<option value="Значение3">C++</option>
+				<option value="Значение4">JavaScript</option>
+				<option value="Значение5">PHP</option>
+				<option value="Значение6">Python</option>
+				<option value="Значение7">Java</option>
+				<option value="Значение8">Haskel</option>
+				<option value="Значение9">Clojure</option>
+				<option value="Значение10">Prolog</option>
+				<option value="Значение11">Scala</option>
+			</select></p></label>
+			<label><p>Напишите вашу биографию: <br><textarea name="Text1" cols="40" rows="5" placeholder="Биография"></textarea></p></label>
+			<label><p><input type="checkbox" checked="checked" name="check"> С контрактом ознакомлен(а)</p></label>
+			<label><p><input type="submit" value="Отправить форму"></p></label>
             </form>
         </div>
     </div>
