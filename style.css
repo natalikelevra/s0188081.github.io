@@ -9,9 +9,10 @@ h1
     padding: 10px;
     height: 100px;
 }
-.body{
+.body
+{
     background-color: #fff;
-    background-image: url(imagebackground.png);
+    background-image: url('imagebackground.png');
     background-repeat: repeat;
 }
 .content
