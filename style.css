@@ -8,6 +8,9 @@ h1
     background-color: #800000;
     padding: 10px;
     height: 100px;
+    border: solid;
+    border-color: #800000;
+    border-radius: 9%;
 }
 .body
 {
@@ -44,6 +47,9 @@ h1
     background-color: #e5e5e5;
     background-image: url('imagebackground.png');
     text-align: center;
+    border: solid;
+    border-color: #800000;
+    border-radius: 9%;
 }
 .blok > div
 {
@@ -78,10 +84,13 @@ h1
 .blok > form
 {
     background-color: #f6f6f6;
-    background-image: url('imagebackground.png');
+    background-image: url('backgroundbunny.jpg');
     width: 500px;
     margin: 5px auto;
     padding: 2px 0;
+    border: solid;
+    border-color: #800000;
+    border-radius: 9%;
 }
 .blok > form > div
 {
