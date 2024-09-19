@@ -32,6 +32,7 @@ h1
     display: inline-block;
     padding: 4px 10px;
     background-color: #ddd;
+    background-image: url('imagebackground.png');
 }
 .syte
 {
@@ -42,6 +43,7 @@ h1
     padding: 8px;
     margin: 10px 0;
     background-color: #e5e5e5;
+    background-image: url('imagebackground.png');
     text-align: center;
 }
 .blok > div
@@ -77,6 +79,7 @@ h1
 .blok > form
 {
     background-color: #f6f6f6;
+    background-image: url('imagebackground.png');
     width: 500px;
     margin: 5px auto;
     padding: 2px 0;
