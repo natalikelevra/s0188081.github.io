@@ -5,16 +5,9 @@ h1
 #header, #footer
 {
     width: 100%;
-    background-color: #8B0000;
+    background-color: #ccc;
     padding: 10px;
     height: 100px;
-    border-radius: 9%;
-}
-.body
-{
-    background-color: #fff;
-    background-image: url('backgroundbunny.jpg');
-    background-repeat: repeat;
 }
 .content
 {
@@ -32,32 +25,31 @@ h1
 {
     display: inline-block;
     padding: 4px 10px;
-    background-color: #8B0000;
+    background-color: #ddd;
 }
 .syte
 {
     margin-top: 10px;
 }
-.middle
+.blok
 {
     padding: 8px;
-    margin: 0 auto;
+    margin: 10px 0;
     background-color: #e5e5e5;
     text-align: center;
 }
-.middleheader
+.blok > div
 {
     margin: 10px 0;
 }
-.table
+#table
 {
     margin: 0 auto;
     border-collapse: collapse;
 }
 #table, #table td
 {
-    border: 5px #8B0000;
-    border: solid;
+    border: 2px #474747 solid
 }
 #table td
 {
@@ -66,24 +58,24 @@ h1
 }
 #table thead tr
 {
-    background-color: #6495ED important;
+    background-color: #d5d5d5! important;
 }
 #table tr:nth-child(even)
 {
-    background-color: #87CEFA;
+    background-color: #c5c5c5
 }
 #table tr:nth-child(odd)
 {
-    background-color: #E6E6FA;
+    background-color: #e6e6e6;
 }
-#form
+.blok > form
 {
-    background-color: #FFDAB9;
+    background-color: #f6f6f6;
     width: 500px;
     margin: 5px auto;
     padding: 2px 0;
 }
-#form
+.blok > form > div
 {
     margin: 5px 0;
 }
