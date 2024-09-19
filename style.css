@@ -5,7 +5,7 @@ h1
 #header, #footer
 {
     width: 100%;
-    background-color: #8FBC8F;
+    background-color: #8B0000;
     padding: 10px;
     height: 100px;
     border-radius: 9%;
@@ -39,22 +39,21 @@ h1
 {
     margin-top: 10px;
 }
-.blok
+.middle
 {
     padding: 8px;
     margin: 10px 0;
-    background-color: #FFC0CB;
+    background-color: #87CEFA;
     text-align: center;
     float: middle;
     width: 900px;
-	background-color: #ecffe6;
 	margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
     border: solid;
     border-radius: 5%;
 }
-#table
+.table
 {
     float: middle;
     margin: 0 auto;
@@ -62,7 +61,7 @@ h1
 }
 #table, #table, #thead td
 {
-    border: 5px #DB7093 solid;
+    border: 5px #8B0000 solid;
 }
 #table td
 {
