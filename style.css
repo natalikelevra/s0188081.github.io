@@ -10,6 +10,7 @@ h1
     height: 100px;
 }
 .body{
+    background-color: #fff;
     background-image: url(imagebackground.png);
     background-repeat: repeat;
 }
@@ -51,7 +52,7 @@ h1
     margin: 0 auto;
     border-collapse: collapse;
 }
-#table, #table td
+#table, #table, #thead td
 {
     border: 5px #DB7093 solid;
 }
@@ -75,7 +76,7 @@ h1
 .blok > form
 {
     background-color: #EE82EE;
-    width: 500px;
+    width: 400px;
     margin: 5px auto;
     padding: 2px 0;
 }
