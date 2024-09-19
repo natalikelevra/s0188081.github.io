@@ -5,9 +5,15 @@ h1
 #header, #footer
 {
     width: 100%;
-    background-color: #ccc;
+    background-color: #800000;
     padding: 10px;
     height: 100px;
+}
+.body
+{
+    background-color: #fff;
+    background-image: url('backgroundbunny.jpg');
+    background-repeat: repeat;
 }
 .content
 {
@@ -49,7 +55,7 @@ h1
 }
 #table, #table td
 {
-    border: 2px #474747 solid
+    border: 5px #800000 solid
 }
 #table td
 {
@@ -58,15 +64,15 @@ h1
 }
 #table thead tr
 {
-    background-color: #d5d5d5! important;
+    background-color: #4682B4! important;
 }
 #table tr:nth-child(even)
 {
-    background-color: #c5c5c5
+    background-color: #6495ED
 }
 #table tr:nth-child(odd)
 {
-    background-color: #e6e6e6;
+    background-color: #87CEFA;
 }
 .blok > form
 {
