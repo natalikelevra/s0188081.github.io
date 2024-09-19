@@ -16,7 +16,7 @@ h1
     background-image: url('backgroundbunny.jpg');
     background-repeat: repeat;
 }
-middle
+.middle
 {
     padding: 8px;
     margin: 10px 0;
@@ -28,6 +28,12 @@ middle
     border: inset;
     border-radius: 5%;
 }
+.middleheader{
+	color: #D2B48C;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+}
 table{
 	margin-top: 30px;
     margin-right: auto;
@@ -36,6 +42,12 @@ table{
     width: 800px;
     height: 280px;
     border-spacing: 0px;
+}
+.form{
+	margin-left: 350px;
+    margin-right: auto;
+    width: fit-content;
+    color: #3c6474;
 }
 tr{
 	background-color: #8cc0bd;
