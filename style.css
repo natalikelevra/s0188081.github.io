@@ -45,6 +45,7 @@ h1
     margin: 10px 0;
     background-color: #FFC0CB;
     text-align: center;
+    float: middle;
 }
 .blok > div
 {
@@ -52,6 +53,7 @@ h1
 }
 #table
 {
+    float: middle;
     margin: 0 auto;
     border-collapse: collapse;
 }
