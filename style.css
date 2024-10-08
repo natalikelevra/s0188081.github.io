@@ -30,6 +30,11 @@ h1
     width: 90px;
     height: 90px;
 }
+
+.header-container {
+    position: relative;
+}
+
 #nav > div
 {
     position: absolute;
