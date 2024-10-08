@@ -26,9 +26,8 @@ h1
 .img
 {
     float: left;
-    margin: 10px;
     width: 90px;
-    height: 90px;
+    height: 75px;
 }
 
 .header-container {
