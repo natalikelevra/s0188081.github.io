@@ -32,10 +32,11 @@ h1
 }
 #nav > div
 {
-    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
     padding: 4px 10px;
     background-color: #800000;
-    margin-left: 500px;
 }
 .syte
 {
