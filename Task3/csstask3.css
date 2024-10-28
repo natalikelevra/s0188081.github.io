@@ -1,0 +1,149 @@
+.body {
+  background: right url("фон1.jpg");
+  background-repeat: repeat;
+  background-size: 100% auto;
+  height: 50px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.header,.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 5%;
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 20px; /*Размер шрифта*/
+  color: #000000; /* Цвет текста */
+  margin-bottom: 15px;
+  margin-top: 15px;
+  max-width: -webkit-fill-available; /*ширина окна подстраивается под сайт*/
+}
+
+
+
+.header h1 {
+font-size: 60px;
+}
+
+
+
+.picture{
+float: left;
+margin-left: 25px;
+margin-top: 20px;
+}
+
+
+.table {
+border-collapse: collapse; /* Убирает двойные границы между ячейками */
+overflow-x: auto;
+order: 1;
+}
+
+th, td {
+border: 3px solid #5c396a; /* Граница для ячеек */
+text-align: center; /* Выравнивание текста */
+padding: 8px; /* Отступы внутри ячеек */
+}
+
+th {
+background-color: #c395dc; 
+}
+
+tbody tr:nth-child(even) {
+background-color: #c395dc; /* Цвет фона для четных*/
+}
+
+tbody tr:nth-child(odd) {
+background-color: #ffffff; /* Цвет фона для нечетных*/
+}
+
+.link {
+text-decoration: none;
+}
+
+
+.window{
+background: right url("фон2.jpg");
+padding: 20px;
+font-size: 20px;
+margin: auto;
+margin-bottom: 15px;
+max-width: -webkit-fill-available; /*ширина окна подстраивается под сайт*/
+border-radius: 3%;
+display: flex;
+flex-direction: column;
+}
+
+.field{
+  width: 100%;
+}
+
+.links{
+  order: 2;
+}
+
+.form{
+  order: 3;
+}
+
+.nav{
+  display:flex;
+  order: 3;
+  flex-direction: column;
+  padding: 10px
+  }
+
+#nav_button{
+  color: #000000;
+  padding: 5px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 576px) {
+  .main{
+    display: contents;
+  }
+  .window{
+    width: 80%;
+    border-radius: 5%;
+    padding: 50px;
+
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav{
+    flex-direction: row;
+    margin-top: 15px;
+    margin-right: 15px;
+
+    }
+
+    .links{
+      order: 1;
+    }
+
+
+    .table{
+      order: 2;
+
+    }
+
+    .header, .footer{
+      border-radius: 10%;
+      flex-direction: row;
+    }
+
+    .field{
+      width: 200px;
+    }
+}
