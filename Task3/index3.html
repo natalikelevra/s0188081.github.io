@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task #3 </title>
+    <link rel="stylesheet" href="csstask3.css">
+
+    
+</head>
+
+
+
+<body class = "body">  
+    <header class = "header">
+      <div class = "logo">
+      <img class= "picture" src="логотип.jpg" title = "logo" height = 120 width=120 alt="Site logo">  
+      <h1 title = "Задание №3"> Task #3 </h1> 
+    </div>
+      <nav class = "nav">    
+          <a href="#links" id = "nav_button" >Links</a>
+          <a href="#planets" id = "nav_button" >Planets</a>
+          <a href="#form" id = "nav_button" >Form</a>  
+      </nav>  
+
+    </header>
+
+
+<main class = "main">
+    <div class = "links" id = "links">
+      <div class = "window">
+      <h1 title = "Ссылки">Links</h1>
+      <p><a href = "https://en.wikipedia.org/wiki/Cosmos" style="color: rgb(0, 0, 0)" title = "космос"> Cosmos </a></p>
+      <p><a href = "https://en.wikipedia.org/wiki/Sun" style="color: rgb(0, 0, 0)" title = "солнце"> Sun </a></p>
+      <p><a href = "https://en.wikipedia.org/wiki/Comet" style="color: rgb(0, 0, 0)" title = "комета" > Comet </a></p>
+      <p><a href = "https://en.wikipedia.org/wiki/Milky_Way" style="color: rgb(0, 0, 0)" title = "млечный путь"> Milky Way </a></p>
+      <p><a href = "https://en.wikipedia.org/wiki/Universe" style="color: rgb(0, 0, 0)" title = "вселенная"> Universe </a></p>
+    </div>
+  </div>
+
+  <div class = "window">
+<div class = "table">
+
+  <table class = "table" id="planets">
+    <thead>
+        <tr>
+            <th>Planet</th>
+            <th>Satellites</th>
+            <th>Diameter(km)</th>
+            <th>Temperature</th>
+            <th>Type of planet</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mercury</td>
+            <td rowspan="2">0</td>
+            <td>4879</td>
+            <td colspan="3">+167°C</td>
+            
+        </tr>
+        <tr>
+            <td>Venus</td>
+            <td>12 103</td>
+            <td>+464°C</td>
+            <td rowspan="3">Terrestrial</td>
+        </tr>
+        <tr>
+            <td>Earth</td>
+            <td>1</td>
+            <td>12 742</td>
+            <td>+15°C</td>
+        </tr>
+        <tr>
+          <td>Mars</td>
+          <td>2</td>
+          <td>6780</td>
+          <td>-65°C</td>
+      </tr>
+      <tr>
+        <td>Jupiter</td>
+        <td>79</td>
+        <td>139 822</td>
+        <td>-110°C</td>
+        <td rowspan="4">Gaseous</td>
+      </tr>
+      <tr>
+        <td>Saturn</td>
+        <td>146</td>
+        <td>116 464</td>
+        <td>-140°C</td>
+      </tr>
+      <tr>
+        <td>Uranus</td>
+        <td>27</td>
+        <td>50 724</td>
+        <td>-195°C</td>
+      </tr>
+      <tr>
+        <td>Neptune</td>
+        <td>14</td>
+        <td>49 244</td>
+        <td>-200°C</td>
+      </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+   
+<div class = "form">
+
+  <form action="/" method="POST" class = "window">
+    <label id = "form">
+      ФИО:<br />
+      <input name="field-email" class = "field" 
+      placeholder="Введите ваши ФИО" />
+    </label><br />
+    <label>
+      Телефон:<br />
+      <input name="field-name" class = "field"
+      placeholder="Введите ваш номер телефона" />
+    </label><br />
+    <label>
+      Email:<br />
+      <input name="field-email" class = "field"
+      type="email"
+      placeholder="Введите вашу почту" />
+    </label><br />
+    <label>
+      Дата рождения:<br />
+      <input name="field-date" class = "field"
+      value="2019-08-13"
+      type="date" />
+    </label><br />
+    Пол<br />
+    <label><input type="radio" checked="checked"
+      name="radio-group-1" value="Значение1" />
+      Женский</label>    
+      <label><input type="radio"   
+        name="radio-group-1" value="Значение2" />
+        Мужской</label><br />
+        <label>
+          Ваш любимый язык программирования:
+          <br />
+          <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Pascal</option>
+          <option value="Значение2" selected="selected">C</option>
+          <option value="Значение3" selected="selected">C++</option>
+          <option value="Значение4" selected="selected">JavaScript</option>
+          <option value="Значение5" selected="selected">PHP</option>
+          <option value="Значение6" selected="selected">Python</option>
+          <option value="Значение7" selected="selected">Java</option>
+          <option value="Значение8" selected="selected">Haskel</option>
+          <option value="Значение9" selected="selected">Clojure</option>
+          <option value="Значение10" selected="selected">Prolog</option>
+          <option value="Значение11" selected="selected">Scala</option>
+        </select>
+      </label><br />
+      <label>
+        Биография:<br />
+        <textarea class = "field" name="field-name-2">Расскажите о себе</textarea>
+      </label><br />
+      <br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        С контрактом ознакомлен (а)</label><br />
+        <input type="submit" class = "field" value="Сохранить" />
+      </form>
+      <div id="down"> </div>
+  </div>
+</main>
+
+      <div class = "footer">
+        <footer>
+          <p>&copy; Vixa Lubyanko</p>
+        </footer>
+      </div>
+    </body>
+    </html>
