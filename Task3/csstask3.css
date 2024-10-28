@@ -1,6 +1,5 @@
 .body {
-  background: right url("фон1.jpg");
-  background-repeat: repeat;
+  background-color: #4A5C6A;
   background-size: 100% auto;
   height: 50px;
   align-items: center;
@@ -12,7 +11,7 @@
   justify-content: space-between;
   flex-direction: column;
   border-radius: 5%;
-  background-color: #ffffff;
+  background-color: #11212D;
   padding: 10px;
   font-size: 20px; /*Размер шрифта*/
   color: #000000; /* Цвет текста */
@@ -66,7 +65,7 @@ text-decoration: none;
 
 
 .window{
-background: right url("фон2.jpg");
+background-color: #253745;
 padding: 20px;
 font-size: 20px;
 margin: auto;
