@@ -42,7 +42,7 @@ order: 1;
 }
 
 th, td {
-border: 3px solid #5c396a; /* Граница для ячеек */
+border: 3px solid #06141B; /* Граница для ячеек */
 text-align: center; /* Выравнивание текста */
 padding: 8px; /* Отступы внутри ячеек */
 }
@@ -52,11 +52,11 @@ background-color: #c395dc;
 }
 
 tbody tr:nth-child(even) {
-background-color: #c395dc; /* Цвет фона для четных*/
+background-color: #9BA8AB; /* Цвет фона для четных*/
 }
 
 tbody tr:nth-child(odd) {
-background-color: #ffffff; /* Цвет фона для нечетных*/
+background-color: #CCD0CF; /* Цвет фона для нечетных*/
 }
 
 .link {
