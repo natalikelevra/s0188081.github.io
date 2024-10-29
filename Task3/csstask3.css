@@ -15,7 +15,7 @@
   background-color: #11212D;
   padding: 10px;
   font-size: 20px; /*Размер шрифта*/
-  color: #CCD0CF; /* Цвет текста */
+  color: #CCD0CF! important; /* Цвет текста */
   margin-bottom: 15px;
   margin-top: 15px;
   max-width: -webkit-fill-available; /*ширина окна подстраивается под сайт*/
@@ -49,15 +49,18 @@ padding: 8px; /* Отступы внутри ячеек */
 }
 
 th {
-background-color: #c395dc;
+background-color: #11212D! important;
+color: #CCD0CF! important;
 }
 
 tbody tr:nth-child(even) {
 background-color: #9BA8AB; /* Цвет фона для четных*/
+color: #253745! important;
 }
 
 tbody tr:nth-child(odd) {
 background-color: #CCD0CF; /* Цвет фона для нечетных*/
+color: #06141B! important;
 }
 
 .link {
