@@ -4,6 +4,7 @@
   height: 50px;
   align-items: center;
   font-weight: bolder;
+  color: #9BA8AB;
 }
 
 .header,.footer {
@@ -49,17 +50,14 @@ padding: 8px; /* Отступы внутри ячеек */
 
 th {
 background-color: #c395dc;
-color: #CCD0CF;
 }
 
 tbody tr:nth-child(even) {
 background-color: #9BA8AB; /* Цвет фона для четных*/
-color: #11212D;
 }
 
 tbody tr:nth-child(odd) {
 background-color: #CCD0CF; /* Цвет фона для нечетных*/
-color: #06141B;
 }
 
 .link {
@@ -99,7 +97,7 @@ flex-direction: column;
   }
 
 #nav_button{
-  color: #000000;
+  color: #CCD0CF;
   padding: 5px;
 }
 
@@ -127,7 +125,6 @@ flex-direction: column;
     flex-direction: row;
     margin-top: 15px;
     margin-right: 15px;
-     color: #CCD0CF;
 
     }
 
