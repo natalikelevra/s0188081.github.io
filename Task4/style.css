@@ -21,6 +21,11 @@ h2 {
     color: #8EB69B; /* Светлый цвет при наведении */
 }
 
+.nav-link {
+    color: #f5f7fa; /* Белый цвет ссылок */
+    transition: color 0.3s;
+}
+
 .container {
     background-color: #DAF1DE; /*фон для контейнера */
     border-radius: 8px; /* Закругленные углы */
