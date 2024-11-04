@@ -42,13 +42,13 @@ h2 {
     background-color: #0B2B26; /* Синий фон для заголовков таблицы */
     color: black; /* Белый текст */
 }
-
-.table td {
-    transition: background-color 0.3s; /* Плавное изменение фона ячеек */
+.table tr:nth-child(even) {
+    background-color: #9BA8AB; /* Цвет фона для четных*/
+    color: #253745! important;
 }
-
-.table td:hover {
-    background-color: #8EB69B; /* Светло-серый фон при наведении на ячейку */
+.table tr:nth-child(odd) {
+     background-color: #CCD0CF; /* Цвет фона для нечетных*/
+    color: #06141B! important;
 }
 
 .btn-primary {
