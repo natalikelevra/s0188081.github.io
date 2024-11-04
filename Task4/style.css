@@ -1,10 +1,10 @@
 body {
-    background-color: #e9ecef; /* Светло-серый фон */
+    background-color: #8EB69B; /* Светло-серый фон */
     font-family: 'Arial', sans-serif;
 }
 
 header {
-    background-color: #4a90e2; /* Синий цвет для заголовка */
+    background-color: #051F20; /* Синий цвет для заголовка */
     color: #f5f7fa; /* Белый текст */
 }
 
@@ -39,7 +39,7 @@ h2 {
 }
 
 .table th {
-    background-color: #4a90e2; /* Синий фон для заголовков таблицы */
+    background-color: #0B2B26; /* Синий фон для заголовков таблицы */
     color: black; /* Белый текст */
 }
 
@@ -48,11 +48,11 @@ h2 {
 }
 
 .table td:hover {
-    background-color: #f1f1f1; /* Светло-серый фон при наведении на ячейку */
+    background-color: #8EB69B; /* Светло-серый фон при наведении на ячейку */
 }
 
 .btn-primary {
-    background-color: #4a90e2; /* Синий цвет кнопки */
+    background-color: #163832; /* Синий цвет кнопки */
     border: none; /* Без рамки */
     transition: background-color 0.3s, transform 0.2s; /* Плавное изменение */
 }
@@ -63,7 +63,7 @@ h2 {
 }
 
 footer {
-    background-color: #4a90e2; /* Синий цвет для подвала */
+    background-color: #051F20; /* Синий цвет для подвала */
     color: #f5f7fa; /* Белый текст */
     font-weight: bold;
     position: relative; /* Позиционирование для эффекта */
