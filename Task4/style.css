@@ -17,18 +17,12 @@ h2 {
     color: black; /* Темно-серый для заголовков секций */
 }
 
-
-.nav-link {
-    color: #f5f7fa; /* Белый цвет ссылок */
-    transition: color 0.3s;
-}
-
 .nav-link:hover {
-    color: black; /* Светлый цвет при наведении */
+    color: #8EB69B; /* Светлый цвет при наведении */
 }
 
 .container {
-    background-color: #DAF1DE; /* Белый фон для контейнера */
+    background-color: #DAF1DE; /*фон для контейнера */
     border-radius: 8px; /* Закругленные углы */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта подъема */
     transition: transform 0.3s; /* Плавное изменение */
