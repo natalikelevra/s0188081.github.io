@@ -43,11 +43,11 @@ h2 {
 background-color: #0B2B26! important;
 color: #CCD0CF! important;
 }
-.table tbody tr:nth-child(even) {
+tbody tr:nth-child(even) {
     background-color: #9BA8AB; /* Цвет фона для четных*/
     color: #253745! important;
 }
-.table tbody tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
      background-color: #CCD0CF; /* Цвет фона для нечетных*/
     color: #06141B! important;
 }
