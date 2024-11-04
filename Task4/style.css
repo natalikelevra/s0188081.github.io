@@ -16,13 +16,13 @@ h2 {
     color: black; /* Темно-серый для заголовков секций */
 }
 
-.nav-link:hover {
-    color: #8EB69B; /* Светлый цвет при наведении */
-}
-
 .nav-link {
     color: #f5f7fa; /* Белый цвет ссылок */
     transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #8EB69B; /* Светлый цвет при наведении */
 }
 
 .container {
