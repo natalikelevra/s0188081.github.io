@@ -42,10 +42,6 @@ button {
     margin: 20px;
 }
 
-.button:active {
-    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
-}
-
 button:hover {
     background-color: #742c2c; /* Цвет кнопки при наведении */
 }
