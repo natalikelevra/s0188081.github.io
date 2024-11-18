@@ -1,20 +1,22 @@
 document.getElementById('calculateButton').addEventListener('click', function() {
     const productPrice = parseFloat(document.getElementById('product').value);
-    const quantity = parseInt(document.getElementById('quantity').value);
-    
+    const quantity = parseFloat(document.getElementById('quantity').value); // Используем parseFloat для проверки
+
     const resultDiv = document.getElementById('result');
 
-    if (isNaN(quantity) || quantity < 0) {
-        resultDiv.textContent = "Введите корректное число";
+    // Проверяем, является ли quantity не числом или меньше 0 или не целым
+    if (isNaN(quantity) || quantity < 0 || !Number.isInteger(quantity)) {
+        resultDiv.textContent = "Введите корректное целое число"; // Сообщение об ошибке
         resultDiv.style.color = "red"; // Цвет сообщения об ошибке
         return; // Выход из функции
     }
 
     const totalCost = productPrice * quantity;
     
-    resultDiv.textContent = `Общая стоимость: $${totalCost.toFixed(2)}`;
+    resultDiv.textContent = `Общая стоимость: ${totalCost.toFixed(2)} рублей.`;
     resultDiv.style.color = "white"; // Цвет результата
 });
+
 
 const colors = ['#561c24', '#3c0008', '#38040e', '#640d14', '#800e13', '#400106'];
 function createHearts() {
