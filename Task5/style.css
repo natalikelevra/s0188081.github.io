@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #c7b7a3; /* Черный фон для контраста */
+    position: relative;
+}
+
+.calculator-container {
+    max-width: 600px;
+    min-height: 250px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color:#c7b7a3;
+    background-color: rgba(60, 0, 8, 0.5); /* Полупрозрачный фон цвета #3c0008 */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #470202;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    color: bisque;
+    margin: 20px;
+}
+
+.button:active {
+    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+}
+
+button:hover {
+    background-color: #742c2c; /* Цвет кнопки при наведении */
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Стили для выпадающего списка и поля ввода */
+select,
+input[type="number"] {
+    width: calc(100% - 20px); /* Ширина с учетом отступов */
+    padding: 10px; /* Отступы внутри полей */
+    margin-top: 5px; /* Отступ сверху */
+    border-radius: 5px; /* Скругленные углы */
+    background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон для полей */
+    color: white; /* Цвет текста внутри полей */
+}
+/* Стили для опций в выпадающем списке */
+select option {
+    color: white; /* Цвет текста опции */
+    background-color: #3c0008; /* Цвет фона опции */
+}
+
+.heart {
+    position: absolute;
+    width: 50px; /* Ширина сердца */
+    height: 50px; /* Высота сердца */
+    background-color: red; /* Цвет сердца */
+    transform: rotate(45deg); /* Поворачиваем квадрат на 45 градусов */
+}
+
+.heart::before,
+.heart::after {
+    content: ""; /* Обязательное свойство для псевдоэлементов */
+    position: absolute;
+    width: 50px; /* Ширина кругов */
+    height: 50px; /* Высота кругов */
+    background-color: red; /* Цвет кругов */
+    border-radius: 50%; /* Делаем круги */
+}
+
+.heart::before {
+    top: -25px; /* Сдвигаем верхний круг вверх */
+    left: 0; /* Центрируем по горизонтали */
+}
+
+.heart::after {
+    left: 25px; /* Сдвигаем правый круг вправо */
+    top: 0; /* Центрируем по вертикали */
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1) rotate(-45deg); } /* Сохраняем поворот */
+    50% { transform: scale(1.3) rotate(-45deg); } /* Сохраняем поворот */
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1) rotate(-45deg); /* Сохраняем поворот при исчезновении */
+    }
+    to {
+        opacity: 0;
+        transform: scale(1) rotate(-45deg); /* Сохраняем поворот при исчезновении */
+    }
+}
+
+.heart {
+    animation: pulse 2s infinite ease-in-out;
+}
