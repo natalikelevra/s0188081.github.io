@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', function (event) {
+  console.log("DOM fully loaded and parsed"); });
 // Добавляем обработчик события на кнопку с id 'calculateButton'
 document.getElementById('calculateButton').addEventListener('click', function() {
     // Получаем значение цены продукта из поля ввода и преобразуем его в число
