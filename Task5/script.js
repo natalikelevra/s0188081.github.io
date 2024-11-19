@@ -1,22 +1,29 @@
+// Добавляем обработчик события на кнопку с id 'calculateButton'
 document.getElementById('calculateButton').addEventListener('click', function() {
+    // Получаем значение цены продукта из поля ввода и преобразуем его в число
     const productPrice = parseFloat(document.getElementById('product').value);
+    
+    // Получаем количество товара из поля ввода и также преобразуем его в число
     const quantity = parseFloat(document.getElementById('quantity').value); // Используем parseFloat для проверки
 
+    // Получаем элемент, в который будем выводить результат
     const resultDiv = document.getElementById('result');
 
-    // Проверяем, является ли quantity не числом или меньше 0 или не целым
+    // Проверяем, является ли quantity не числом, меньше 0 или не целым числом
     if (isNaN(quantity) || quantity < 0 || !Number.isInteger(quantity)) {
-        resultDiv.textContent = "Введите корректное целое число"; // Сообщение об ошибке
-        resultDiv.style.color = "red"; // Цвет сообщения об ошибке
-        return; // Выход из функции
+        // Если условие истинно, выводим сообщение об ошибке
+        resultDiv.textContent = "Введите корректное целое, положительное число"; // Сообщение об ошибке
+        resultDiv.style.color = "red"; // Устанавливаем цвет сообщения об ошибке на красный
+        return; // Выходим из функции, чтобы не продолжать выполнение кода
     }
 
+    // Вычисляем общую стоимость, умножая цену продукта на количество
     const totalCost = productPrice * quantity;
     
+    // Выводим результат в элемент resultDiv, форматируя его до двух знаков после запятой
     resultDiv.textContent = `Общая стоимость: ${totalCost.toFixed(2)} рублей.`;
-    resultDiv.style.color = "white"; // Цвет результата
+    resultDiv.style.color = "white"; // Устанавливаем цвет текста результата на белый
 });
-
 
 const colors = ['#561c24', '#3c0008', '#38040e', '#640d14', '#800e13', '#400106'];
 function createHearts() {
