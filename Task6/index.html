@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>NAIL-SERVICE</h2>
+        <form id="form">
+          <div class="row">
+            <input
+              class="goods_input"
+              type="text"
+              id="input-box"
+              placeholder="Количество товаров"
+            />
+          </div>
+          <div class="row">
+            <span class="options-label">Тип услуги:</span><br />
+
+            <label class="options-label" for="Without">Маникюр без покрытия</label>
+            <input
+              type="radio"
+              name="service-type"
+              id="Without"
+              value="Without"
+              checked
+            />
+            <label class="options-label" for="Dizagn">Маникюр с дизайном</label>
+
+            <input
+              type="radio"
+              id="Dizagn"
+              name="service-type"
+              value="Dizagn"
+            />
+            <label class="options-label" for="odnoton">Маникюр с однотонным покрытием (доп. услуги)</label>
+            <input
+              type="radio"
+              id="odnoton"
+              name="service-type"
+              value="Odnoton"
+            />
+          </div>
+          <div class="row" id="option-container">
+            <label class="options-label" for="options">Выберите дизайн:</label>
+            <select id="options">
+              <option class="options-label" value="">Выберите дизайн</option>
+              <option value="nakl">Наклейки в ассортименте (+500 руб.)</option>
+              <option value="stemp">Стемпинг (+1000 руб)</option>
+              <option value="hand">Ручная роспись (+2000 руб)</option>
+            </select>
+          </div>
+          <div class="row" id="property-container">
+            <div class="odnoton-option-container">
+              <div class="odnoton-item">
+                <label class="odnoton-label" for="base"
+                  >Без доп. услуг (1800 руб)</label
+                >
+                <input class="odnoton-input" type="checkbox" id="base" />
+              </div>
+
+              <div class="odnoton-item">
+                <label class="odnoton-label" for="paraf"
+                  >Парафинотерапия (+1000 руб)</label
+                >
+                <input class="odnoton-input" type="checkbox" id="paraf" />
+              </div>
+
+              <div class="odnoton-item">
+                <label class="odnoton-label" for="k4">Уход за кутикулой (+700 руб)</label>
+                <input class="odnoton-input" type="checkbox" id="k4" />
+              </div>
+
+              <div class="odnoton-item">
+                <label class="odnoton-label" for="mas">Массаж (+1200 руб)</label>
+                <input class="odnoton-input" type="checkbox" id="mas" />
+              </div>
+            </div>
+          </div>
+          <button type="button" class="button">Узнать стоимость</button>
+
+          <div class="price" id="price-container"></div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
+</html>
