@@ -64,6 +64,7 @@ textarea{
     font-size: 14px;
     line-height: 114.286%;
     outline: none;
+    resize: none;
 }
 a, 
 a:hover{
