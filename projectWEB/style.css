@@ -282,6 +282,10 @@ nav li{
 .menu .thisPage{
     color:#F14D34
 }
+.menu_podcat > ul li:hover {
+    background-color: #8e1401; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}
 
 
 /* services */
